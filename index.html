@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="stylePresset.css" type="text/css" media="all" />
+    <title>game</title>
+</head>
+<body>
+    <div id="game">
+        
+        <div class="mainMenu">
+            <h1 class="title"></h1>
+            <p id="startGame">JUGAR</p>
+					  <p>Creado por <b>4nd1</b></p>
+        </div>
+			  
+			  <div class='ctn-over'>
+						<div class='gameOverScreen'>
+								<p class='img'></p>
+								<p class='tips'>Parece ser que tu nave se estrelló con algún <b>Enemigo</b> utiliza la evasión para evitarlos, ten en cuenta que es una vez para cada lado. <p/>
+								<p class='retry' onclick='location.reload()'>REINTENTAR</p>
+						</div>
+				</div>
+        
+        <div id="points"> Score: <p> 0 </p></div>
+        
+        <div class="control">
+            <button id="left"><</button>
+            <button id="right">></button>
+        </div>
+        
+        <div id="player"></div>
+		
+		
+        
+        
+        
+<script src="main.js" type="text/javascript" charset="utf-8"></script>
+
+
+<audio src="sounds/4nd1 - SpaceStation (Menu Theme).mp3" loop="infinite" autoplay='true' height="0" width="0"></audio>
+
+</body>
+</html>
